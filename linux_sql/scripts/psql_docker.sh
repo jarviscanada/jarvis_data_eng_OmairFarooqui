@@ -24,9 +24,9 @@ case $cmd in
 
     docker pull postgres
     docker volume create pgdata
-    export PGPASSWORD=db_password
-    export PGUSERNAME=db_username
-    docker run --name jrvs-psql -e POSTGRES_PASSWORD=$PGPASSWORD -e POSTGRES_USER=$PGUSERNAME -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
+#    export PGPASSWORD=db_password
+#    export PGUSERNAME=db_username
+    docker run --name jrvs-psql -e POSTGRES_PASSWORD="$db_password" -e POSTGRES_USER="$db_username" -d -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
     exit $?
     ;;
 
