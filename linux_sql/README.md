@@ -93,8 +93,6 @@ SQL Queries: DBeaver was also used to verify the SQL script entries and manually
 This application was deployed with the use of Git/Github, Docker, a Google Cloud Platform Virtual Machine Instance using CentOS 7 Linux, Bash Scripting, PostgreSQL, Crontab, and IntelliJ IDE. 
 
 # Improvements
-Write at least three things you want to improve 
-e.g. 
-- handle hardware update 
-- blah
-- blah
+- Fix SQL queries round5 function to take timestamp without UTC timezone.
+- Improve linux usage data commands used to reduce code being written.
+- When running the bash scripts that use the psql instance, try to get it to work with postgres user, instead of my own made user.
