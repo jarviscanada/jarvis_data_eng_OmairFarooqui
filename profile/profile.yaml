@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_OmairFaroo
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a Software Engineer who recently graduated from Ontario Tech University. I am someone who loves to learn and keep expanding my tool belt. I love this field because there is always constant room for growth and Software Engineers are in very high demand with all the tech in the world today. This field is a great place to be in as there as so many different roles and specializations you can consider. Personally I am someone who has always found it easy to deal with the back-end of applications, however I would like to expand my role to Full Stack and learn a modern library like React to help achieve that.
+summary: I am a Software Engineer who recently graduated from Ontario Tech University. I am someone who loves to learn and keep expanding my tool belt. I love this field because there is always constant room for growth and Software Engineers are in very high demand with all the tech in the world today. This field is a great place to be in as there as so many different roles and specializations you can consider. I am someone who has always found it easy to deal with the back-end of applications, however I would like to expand my role to Full Stack and learn a modern library like React to help achieve that.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -116,5 +116,5 @@ others:
   - title: "Activities/Hobbies"
     bullets:
       - "Basketball"
-      - "Competitive fps aming"
+      - "Competitive fps gaming"
       - "Working out"
