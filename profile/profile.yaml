@@ -47,9 +47,9 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Designed an application which mimics the linux grep command. The purpose of this application is to search through a given directory for any matches to a user-given string and write the found matching strings to a file. The technologies used include: Java 8, IntelliJ IDE, Maven, Docker, and Git."
+      - "JDBC App: In progress"
+      - "Twitter App: Not started"
   - name: "Springboot App"
     git_url: "/springboot"
     description: ""

@@ -1,6 +1,6 @@
 # Omair Farooqui . Jarvis Consulting
 
-I am a Software Engineer who recently graduated from Ontario Tech University. I am someone who loves to learn and keep expanding my tool belt. I love this field because there is always constant room for growth and Software Engineers are in very high demand with all the tech in the world today. This field is a great place to be in as there as so many different roles and specializations you can consider. Personally I am someone who has always found it easy to deal with the back-end of applications, however I would like to expand my role to Full Stack and learn a modern library like React to help achieve that.
+I am a Software Engineer who recently graduated from Ontario Tech University. I am someone who loves to learn and keep expanding my tool belt. I love this field because there is always constant room for growth and Software Engineers are in very high demand with all the tech in the world today. This field is a great place to be in as there as so many different roles and specializations you can consider. I am someone who has always found it easy to deal with the back-end of applications, however I would like to expand my role to Full Stack and learn a modern library like React to help achieve that.
 
 ## Skills
 
@@ -19,9 +19,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_OmairFaroo
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/core_java)]:
       
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Grep App: Designed an application which mimics the linux grep command. The purpose of this application is to search through a given directory for any matches to a user-given string and write the found matching strings to a file. The technologies used include: Java 8, IntelliJ IDE, Maven, Docker, and Git.
+  - JDBC App: In progress
+  - Twitter App: Not started
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/springboot)]: Not Started
 
@@ -59,5 +59,5 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_OmairFaroo
 
 ## Miscellaneous
 - Basketball
-- Competitive fps aming
+- Competitive fps gaming
 - Working out
