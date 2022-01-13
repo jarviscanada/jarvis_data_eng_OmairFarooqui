@@ -1,12 +1,12 @@
 # Omair Farooqui . Jarvis Consulting
 
-I am a Software Engineer who recently graduated from Ontario Tech University. I am someone who loves to learn and keep expanding my tool belt. I love this field because there is always constant room for growth and Software Engineers are in very high demand with all the tech in the world today. This field is a great place to be in as there as so many different roles and specializations you can consider. I am someone who has always found it easy to deal with the back-end of applications, however I would like to expand my role to Full Stack and learn a modern library like React to help achieve that.
+I graduated from Ontario Tech University with a BEng in Software Engineering. During my undergraduate studies, I was able to learn many key engineering concepts, some of which include Object Oriented Programming and Design, Data Structures, Design and Analysis of Algorithms, Software Design and Architecture, and Data Management Systems. During my undergraduate studies, I worked on numerous different projects while using many different technologies (Java, Python, C, Android, SQL, JS/HTML/CSS etc.) and collaborated with many different teams. This allowed me to learn how to adapt to different working environments with ease and quickness. In these school projects, I was given the opportunity to display my leadership skills as well, as I was in charge of conducting weekly meetings along with making sure my team had met deadlines and stayed on track with the project timeline. The responsibility of being the group leader also resulted in lots of important decision making and keeping constant communication with team members to ensure that everyone was completing assigned tasks and on the same page. For the last few months, I have been working with Jarvis as a Software Developer/Data Engineer and have been able to work with many engineering technologies (Docker, Git, Google Cloud Platform, Linux, Bash, PostgreSQL, Core Java etc.) and practice developing in an agile software development lifecycle. I am looking forward to using my knowledge and skills to provide creative solutions on projects that will reflect a positive impact on real world problems. I am excited to grow as a Software Engineer and absorb all the knowledge and experience that comes my way.
 
 ## Skills
 
 **Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Python, AWS, C++, C, JavaScript, HTML/CSS, Android, Docker, JSON
+**Competent:** Python, Maven, AWS, C++, C, JavaScript, HTML/CSS, Android, Docker, JSON
 
 **Familiar:** Flask, Google Cloud Platform, Blockchain, Heroku, UML, PHP
 
@@ -15,40 +15,26 @@ I am a Software Engineer who recently graduated from Ontario Tech University. I 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/linux_sql)]: Designed an application to record the hardware specifications and monitor resources usages (CPU/memory etc) in real-time of each node within a Linux cluster of 10 nodes. These nodes will be running CentOS 7 and connected via switch, allowing them to communicate through internal IPv4 addresses. The data collected will be stored in a PostgreSQL database and used to generate reports for resource planning. The technologies used in this project include Bash (scripts), IntelliJ IDE, Docker, Git, and PostgreSQL.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/linux_sql)]: Developed an application with Bash, Docker, Git, and PostgreSQL to record the hardware specifications and monitor resources usages (CPU/memory, etc.) of nodes within a Linux cluster. The data collected will be stored in a PostgreSQL database and used to generate reports for resource planning with SQL queries. Crontab was effectively used to collect continuous resource usage data from a cluster, which was later used to generate the report.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/core_java)]:
-      
-  - Grep App: Designed an application which mimics the linux grep command. The purpose of this application is to search through a given directory for any matches to a user-given string and write the found matching strings to a file. The technologies used include: Java 8, IntelliJ IDE, Maven, Docker, and Git.
-  - JDBC App: In progress
-  - Twitter App: Not started
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/cloud_devops)]: Not Started
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_OmairFarooqui/tree/master/core_java)]: Grep App. Designed an application that mimics the Linux grep command with Core Java. The purpose of this application is to search through a given directory for any matches to a user-given string and write the found matching strings to an output file. The technologies used include Java 8, IntelliJ IDE, Maven, Docker, and Git.
 
 
 ## Highlighted Projects
-**IoT Smart Home Security System**: Led a team consisting of four Software Engineering students to develop a Smart Home Security System. Application offers arm/disarm feature, voice command capability via Amazon Alexa, live video camera footage and capability to record footage. Technologies used include Arduino, Java, C, ESP8266 Wi-Fi Module, PIR Motion Sensor, Android, Firebase, and ArduCAM Mini.
+**IoT Smart Home Security System**: Led a team consisting of four Software Engineering students to develop a Smart Home Security System using Arduino, Java, C, ESP8266 Wi-Fi Module, PIR Motion Sensor, Android, Firebase, and ArduCAM Mini. Application offers arm/disarm feature, voice command capability via Amazon Alexa, live video camera footage and capability to record footage. The application was built using the agile design methodology and  tested using the big bang integration testing method. This was a final capstone project and some responsibilities included but were not limited to weekly reports describing work done in the week, weekly meetings with faculty advisor, meetings with group members three times a week, and prototype demonostration.
 
-**ElectionBlock, Blockchain-Based Voting System**: Collaborated with a team of four Software Engineering students to develop a permission-based blockchain voting system that integrates a biometric scanner for authentication and proof of authority as a consensus protocol. Developed in Python, the system runs on its own centralized blockchain network. Published under the 2021 IEEE International Conference on Software Architecture Companion (ICSA-C).
+**ElectionBlock, Blockchain-Based Voting System**: Collaborated with a team of four Software Engineering students to develop a Python permission-based blockchain voting system that integrates a biometric scanner for authentication and proof of authority as a consensus protocol. Developed in Python, the system runs on its own centralized blockchain network. Some of the technologies used include Flask, Redis (Pub-Sub Broker), React, and Raspberry Pi. Published under the 2021 IEEE International Conference on Software Architecture Companion (ICSA-C). (https://bit.ly/3r6TgmA)
 
-**COVID-19 Tracking Mobile Application**: Collaborated with a team of four Software Engineering students to develop a COVID-19 application that keeps users up- to-date with the latest statistics. The application includes a main page with updated global statistics, the use of Google Maps API to pinpoint a location and display statistics, and a search query function to display statistics for user-specific countries/cities. The application was developed using Android (Java).
+**COVID-19 Tracking Mobile Application**: Collaborated with a team of four Software Engineering students to develop a COVID-19 mobile application using Android (Java), which keeps users up- to-date with the latest COVID-19 statistics. The application includes a main page with updated global statistics, the use of Google Maps API to pinpoint a location and display statistics, and a search query function to display statistics for user-specific countries/cities.
 
-**Polling Cloud Web Application**: Developed a polling web application and deployed it to an Amazon EC2 instance (IaaS). The application allows users to create their own polls, vote in any poll made by users, and view results of all polls in a table format. All data is stored and accessible using a MySQL database. The database was setup using Amazon RDS (SaaS). The application was developed using Python, HTML, CSS, Amazon RDS (MySQL), and deployed using Amazon EC2.
+**Polling Cloud Web Application**: Developed a polling web application using Python (Flask), HTML, CSS, Amazon RDS (MySQL) and deployed it to an Amazon EC2 instance (IaaS). The application allows users to create their own polls, vote in any poll made by users, and view results of all polls in a table format. All data is stored and accessible using a MySQL database. The database was setup using Amazon RDS (SaaS).
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2021-present)**: Developed numerous projects which incorporate key characteristics and demanding technical skills of a software developer. This includes using technologies and methodologies like Linux, SQL, Docker, Bash, Java, Python, Agile/Scrum and more.
+**Software Developer, Jarvis (2021-present)**: Collaborated in a Scrum team with Agile environment as a Software Developer/Data Engineer. Within Scrum meetings, I assisted others in project related issues and had the opportunity to lead as a scrum leader. Developed numerous projects using GitFlow which incorporate key characteristics and demanding technical skills of a software developer. This includes using technologies and methodologies like Linux, SQL, Docker, Bash, Java, Python, Agile/Scrum, GCP, and more.
 
-**Program Assistant, The Village Children's Program (2017-2021)**: Worked with early childhood educators to supervise children aged 4-13, create a safe environment and space for children, ensure the well-being and engagement of children under our supervision, engage with parents of the children to enable trust and good relationships.
+**Program Assistant, The Village Children's Program (2017-2021)**: Collaborated with various childhood educators to supervise children aged 4-13, create a safe environment and space for children, ensure the well-being and engagement of children under our supervision, communicated with parents of the children to enable trust and good relationships. I was also given the opportunity to lead and supervise multiple daily physical fitness classes of 30 students. Responsibilities included planning activities for different classes (ex: basketball drills and games, soccer games, children's gym games etc.). 
 
 
 ## Education
@@ -58,6 +44,5 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_OmairFaroo
 
 
 ## Miscellaneous
-- Basketball
-- Competitive fps gaming
-- Working out
+- Basketball: played/organized basketball games in local league.
+- Competitive FPS Gaming: organized teams of my own to compete in Call of Duty Black Ops 3 Gamebattles (Won $20 in prize money) and Competitive Valorant (Peak Rank: Immortal).
