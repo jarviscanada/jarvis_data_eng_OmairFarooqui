@@ -1,17 +1,18 @@
-package ca.jrvs.apps.grep;
+package main.java.ca.jrvs.apps.grep;
 
+//import com.sun.org.slf4j.internal.Logger;
+//import com.sun.org.slf4j.internal.LoggerFactory;
+//import com.sun.org.slf4j.internal.LoggerFactory;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.apache.log4j.BasicConfigurator;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-//import com.sun.org.slf4j.internal.LoggerFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.apache.log4j.BasicConfigurator;
 
 public class JavaGrepImpl implements JavaGrep {
 
@@ -29,7 +30,7 @@ public class JavaGrepImpl implements JavaGrep {
         for (File f : lf){
             List<String> lines = readLines(f);
             for (String line : lines){
-                if (containsPattern(line)==true){
+                if (containsPattern(line)){
                     matchedLines.add(line);
                 }
             }
@@ -40,7 +41,7 @@ public class JavaGrepImpl implements JavaGrep {
     @Override
     public List<File> listfiles(String rootDir){
         File dir = new File(rootDir);
-        File fileList[] = dir.listFiles();
+        File[] fileList = dir.listFiles();
         List<File> listOfFiles = new ArrayList<File>();
 
         for (File file : fileList){
@@ -52,7 +53,12 @@ public class JavaGrepImpl implements JavaGrep {
 
     @Override
     public List<String> readLines(File inputFile){
-        Scanner sc = new Scanner(inputFile);
+        Scanner sc = null;
+        try {
+            sc = new Scanner(inputFile);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
         List<String> listOfLines = new ArrayList<String>();
         while(sc.hasNextLine()){
             listOfLines.add(sc.nextLine());
@@ -78,9 +84,10 @@ public class JavaGrepImpl implements JavaGrep {
         String outFile = getOutFile();
         BufferedWriter writer = new BufferedWriter(new FileWriter(outFile, true));
 
-        for (String l : lines){
-            writer.append(l + "\n");
-        }
+//        for (String l : lines){
+//            writer.append(l + "\n");
+//        }
+        writer.write(String.valueOf(lines));
         writer.close();
     }
 
