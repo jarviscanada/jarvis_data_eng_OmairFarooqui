@@ -7,35 +7,35 @@ import java.util.*;
 public interface JavaGrep {
 
     /**
-     *
+     * Workflow of application
      * @throws IOException
      */
 
     void process() throws IOException;
 
     /**
-     *
-     * @param rootDir
-     * @return
+     * Traverse a directory and return all files
+     * @param rootDir (input directory)
+     * @return files under root directory
      */
     List<File> listfiles(String rootDir);
 
     /**
-     *
+     * Read through a file and return all lines in that file
      * @param inputFile
-     * @return
+     * @return lines
      */
     List<String> readLines(File inputFile);
 
     /**
-     *
+     * check if input line contains regex pattern
      * @param line
-     * @return
+     * @return true if match otherwise false
      */
     boolean containsPattern(String line);
 
     /**
-     *
+     * write lines to output files
      * @param lines
      * @throws IOException
      */
